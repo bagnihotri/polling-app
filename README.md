@@ -16,4 +16,4 @@
 The polling app is running fine on
 - `Chrome` on Mac
 - `Chrome` and `Safari` on iphone
-- Somehow the progress bar is not visible if device is toggled from `Chrome dev tool`
+
