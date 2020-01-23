@@ -1,0 +1,43 @@
+.poll-progress-container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: .5em;
+}
+.poll-progress-container progress {
+  width: 100%;
+}
+
+.poll-details {
+  display: flex;
+  align-items: center;
+}
+.poll-details h4 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-weight: 400;
+  display: flex;
+}
+.poll-details .cast-poll, .poll-details span {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.cast-poll, .poll-selected {
+  height: 1.33em;
+  width: 1.33em;
+  margin-left: auto;
+}
+
+.cast-poll {
+  background-image: url(../logo/square.svg)
+}
+
+.poll-selected {
+  background-image: url(../logo/tick.svg)
+}
+
+.percent-info {
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+}
